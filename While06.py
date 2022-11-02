@@ -10,7 +10,7 @@ def main(s):
     x1 = 0
     x2 = 0
     while x1<len(s):
-        if s[x1].isalpha() and (s[x1]== "a" or s[x1]=="e" or s[x1]=="i" or s[x1]=="o" or s[x1]=="u"):
+        if s[x1].islower() and (s[x1]== "a" or s[x1]=="e" or s[x1]=="i" or s[x1]=="o" or s[x1]=="u"):
             x2 +=0
         else:
             x2 +=1
