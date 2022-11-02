@@ -12,7 +12,7 @@ def main(s):
     while i < len(s):
         
         if s[i].isdigit():            
-            k +=i 
+            k +=1 
         i +=1
     return k
-print(main("123kgj"))
+print(main("1683kgj67"))
